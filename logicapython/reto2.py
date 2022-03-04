@@ -6,8 +6,8 @@ print("3. Eleve a la 2 el numero ingresado")
 
 opcion = int(input("Selecciones una opción: "))
 
-while(opcion == 0):
-	print("fin")
+while(opcion != 0 and opcion != 1 and opcion != 2 and opcion != 3):
+	print("Opcion no valida")
 	opcion = int(input("Selecciones una opción: "))
 else:
 	if(opcion == 1):
@@ -26,7 +26,10 @@ else:
 		resultado = numero * numero
 		print(resultado)
 	else:
-		print("Opcion no valida")
+		print("Adiós")
+
+		
+		
 			
 				
 
