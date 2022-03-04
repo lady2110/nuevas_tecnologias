@@ -8,3 +8,25 @@ elif(nivelAgua >= 200 and nivelAgua < 400):
 else:
 	print("Nivel del agua elevado mayor a 400")
 
+
+
+
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+	
+
+
+
+
+
