@@ -4,12 +4,10 @@ print("1. Encuentre si el numero es multiplo de 2")
 print("2. Sume 100 al numero ingresado")
 print("3. Eleve a la 2 el numero ingresado")
 
-opcion = int(input("Selecciones una opción: "))
+opcion = 1
 
-while(opcion != 0 and opcion != 1 and opcion != 2 and opcion != 3):
-	print("Opcion no valida")
+while(opcion != 0):
 	opcion = int(input("Selecciones una opción: "))
-else:
 	if(opcion == 1):
 		numero = int(input("Ingrese un número: "))
 		resultado = numero % 2
@@ -25,9 +23,12 @@ else:
 		numero = int(input("Ingrese un número: "))
 		resultado = numero * numero
 		print(resultado)
-	else:
+	elif(opcion == 0):
 		print("Adiós")
-
+	else:
+		print("Opcion no valida")
+	
+	
 		
 		
 			
